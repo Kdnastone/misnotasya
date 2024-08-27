@@ -1,0 +1,61 @@
+:root {
+    --primary-bg-color: #e2e8ea;
+    --primary-font-family: 'Chalkboard', Arial;
+    --button-hover-color: #a700b3;
+}
+
+#notes {
+    background-color: var(--primary-bg-color);
+    color: black;
+    padding: 20px;
+    font-family: var(--primary-font-family);
+}
+
+h1, h2 {
+    font-family: 'Chalkboard', Arial;
+    font-weight: bold;
+    text-align: left;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+}
+ 
+#form {
+    background-color: white;
+    padding: 20px;
+}
+
+#noteText {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #faf8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formNote button {
+    background-color:  rgb(57, 31, 184);
+    color: #fff;
+    font-family: 'Chalkboard', Arial;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formNote button:hover {
+    background-color: var(--button-hover-color);
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    #noteText {
+        font-size: 14px;
+    }
+}
