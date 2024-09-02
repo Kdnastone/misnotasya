@@ -1,14 +1,26 @@
 :root {
-    --primary-bg-color: #e2e8ea;
+    --primary-bg-color: #ceb987;
     --primary-font-family: 'Chalkboard', Arial;
     --button-hover-color: #a700b3;
 }
-
+header{
+    display: flex;
+    
+    
+}
+header figure img{
+    width: 60px;
+    height: 60px;
+    margin-top: -10px;
+    
+    
+}
 #notes {
     background-color: var(--primary-bg-color);
     color: black;
     padding: 20px;
     font-family: var(--primary-font-family);
+    border-radius: 20px;
 }
 
 h1, h2 {
@@ -19,6 +31,8 @@ h1, h2 {
 
 h1 {
     font-size: 35px;
+   
+    
 }
 
 h2 {
@@ -26,8 +40,11 @@ h2 {
 }
  
 #form {
-    background-color: white;
-    padding: 20px;
+    background-color: var(--primary-bg-color);
+    padding: 10px;
+    border-radius: 20px;
+    
+    
 }
 
 #noteText {
@@ -37,6 +54,8 @@ h2 {
     background-color: #faf8f8;
     border: 1px solid #ccc;
     border-radius: 5px;
+    
+
 }
 
 #formNote button {
@@ -47,6 +66,7 @@ h2 {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 #formNote button:hover {
@@ -59,3 +79,14 @@ h2 {
         font-size: 14px;
     }
 }
+
+#notes article {
+    flex-grow: 1;
+    background-color: #f4dd8d;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    
+  }
+
