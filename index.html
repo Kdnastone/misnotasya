@@ -10,20 +10,22 @@
 <body>
     <header>
         <h1>Mis Notas Ya</h1>
+        <figure>
+         <img src="assets/notas.svg">
+        </figure>
     </header>
     <main>
-        <h2>Notas Creadas</h2>
-        <!-- Esta es la sección para visualizar las notas creadas -->
-        <section id="notes"></section>
-
         <!-- Esta es la sección con el formulario para crear las notas -->
         <section id="form">
             <h2>Agregar una nueva nota</h2>
             <form id="formNote">
-                <textarea id="noteText" placeholder="Escribe tu nota aquí"></textarea>
-                <button type="submit">Guardar nota</button>
+                <textarea id="noteText" placeholder="Escribe tu nota aquí..."></textarea>
+                <button id = 'guardarNota' type="button">Guardar nota</button>
             </form>
         </section>
+        <h2>Notas Creadas</h2>
+        <!-- Esta es la sección para visualizar las notas creadas -->
+        <section id="notes"></section>
     </main>
     
     <!-- Esta es la ruta del archivo JavaScript principal para programar el Backend con las variables de arriba -->
